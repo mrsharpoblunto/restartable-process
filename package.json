@@ -1,0 +1,23 @@
+{
+  "name": "restartable-process",
+  "version": "1.0.0",
+  "description": "Spawn a process and provide a means to easily restart it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsharpoblunto/restartable-process.git"
+  },
+  "keywords": [
+    "process",
+    "restart"
+  ],
+  "author": "Glenn Conner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrsharpoblunto/restartable-process/issues"
+  },
+  "homepage": "https://github.com/mrsharpoblunto/restartable-process#readme"
+}
