@@ -5,7 +5,7 @@ var RestartableProcess = function(processName,args,opts) {
     this._args = args;
     this._opts = Object.assign(opts || {},{ stdio: 'inherit' });
     this._onRestart = null;
-    process.on('exit',()=> {
+    process.on('exit',function() {
         if (this._process) {
             this._process.kill();
         }

@@ -1,6 +1,6 @@
 {
   "name": "restartable-process",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spawn a process and provide a means to easily restart it",
   "main": "index.js",
   "scripts": {
